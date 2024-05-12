@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cozy House</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled =  window.scrollY;
+
+            if (Math.ceil(scrolled) === scrollable) {
+                alert('You reached the bottom!');
+            }
+        });
+    </script>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Cozy House</a>
+
+        <nav class="navbar">
+            <a href="#top">Home</a>
+            <a href="#about1">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header> 
+
+    <div class="photo">
+        <div class="bg-img"></div>
+        <div class="content">
+            <h1>Find your,<br>Best Friend</h1>
+            <p>At the Cozy House Olongapo, hundreds of rescues are waiting to find their fur-ever homes. Many of our Find your Adoptables have been rescued from death row, from local pounds or from abusive environments. They are all vaccinated, dewormed and neutered and can be visited anytime, just with prior registration</p>
+            <p>Best Friend By choosing to adopt, you are giving an animal the chance to find a new home and to feel the love and security they deserve. You are also helping free up more space in our shelters, allowing us to rescue and rehabilitate more animals.</p>
+        </div>
+      </div>
+<div class="msg3">
+    <h1>Pets Available</h1>
+</div>
+
+<div class="image-container">
+    <div class="box">
+        <img src="dog1.jpg">
+        <div class="box-content">
+            <h3>Buddy</h3>
+            <p>A cheerful and loyal companion,,<br> Buddy is always ready to put a smile on your face with his playful antics. <br> He's the perfect sidekick for outdoor adventures and cozy nights in,<br> bringing endless joy and love into your home.</p>
+        </div>
+    </div>
+
+        <div class="box">
+            <img src="dog2.jpg" >
+            <div class="box-content">
+                <h3>Luna</h3>
+                <p>With her gentle demeanor and soulful eyes, Luna is the epitome of grace and charm. <br> She's a calming presence, offering unconditional love and companionship to anyone who welcomes her into their life. <br> Adopting Luna means gaining a loyal friend who will always be by your side, ready to provide comfort and support whenever you need it.</p>
+            </div>
+        </div>
+
+
+            <div class="box">
+                <img src="cat1.jpg">
+                <div class="box-content">
+                    <h3>Whiskers</h3>
+                    <p>dogwhdhvhjshjvhdjhaWith his mischievous charm and curious nature, Whiskers adds a spark of joy to every moment. <br> Whether he's chasing shadows or lounging in a sunbeam, he'll captivate your heart with his playful antics and affectionate purrs. <br> Adopting Whiskers means inviting endless entertainment and love into your home.</p>
+                </div>
+            </div>
+
+
+                <div class="box">
+                    <img src="cat2.jpg">
+                    <div class="box-content">
+                        <h3>Misty</h3>
+                        <p>Elegant and graceful, Misty moves through life with quiet confidence and a gentle spirit. <br> Her soothing presence brings a sense of calm to any environment, making her the perfect companion for quiet evenings and peaceful moments of reflection. <br> Adopting Misty means welcoming a loyal friend who will bring warmth and comfort to your heart with every soft paw step.</p>
+                    </div>
+                </div>
+
+</div>
+
+<div class="message" id="about1">
+    <p>Adopting pets is undoubtedly better—both for the animals and their future owners.<br> Not only does it give animals a second chance at a loving home, but it also reduces overcrowding and euthanasia rates in shelters.<br> Beyond these benefits, adopting a pet brings immeasurable joy and companionship into one's life.<br> The bond formed with an adopted pet is often deeper, as they seem to appreciate the second chance they've been given.<br> So, for those considering bringing a furry friend into their home, adoption is not just a humane choice but a fulfilling one too.</p>
+</div>
+
+<div class="adoption" id="about">
+    <div class="info">
+        <h3>Adopt</h3>
+        <div class="mation">
+            <h3>Are you ready to open your home to a new family member?</h3>
+            <p>Adoption Application Process:</p>
+         <ol>
+            <li>Fill out the Adoption Application Form</li>
+            <li>Adoption Interview </li>
+            <li>Visit the Shelter and bring home your new Best Friend!</li>
+         </ol>
+            
+        </div>
+    </div>
+
+    <div class="info">
+        <h3>Foster</h3>
+        <div class="mation">
+            <h3>Do you want to support us is our Rescue Rehabilitation efforts?</h3>
+            <p>Foster Volunteer Application:</p>
+            <ol>
+                <li>Fill out the Fostering Application Form</li>
+                <li>Foster Volunteer Interview </li>
+                <li>Become a Foster Volunteer!</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+<div class="Footercontainer">
+    <div class="social">
+        <a href="https://github.com/Kkururugi"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjBJREFUSEu11UnIjlEUB/DfJ7IhCyRZosxFslCKKGFjKEOKEjKlJGOJZAglkiHsCCXDhh0LC5SIjEWysDAkC1KIPOfrvnW/53uHx+I7m/e99/7P/Z9z7jn/p00XW1sX368VQQ/MxgyMxlDafd7hCW4W+1fwu1GgzQim4SSGtMjyLVbiVj1cI4It2J+irVLFv9iKQ2VwPYLNOFDl1jqYDTiS75cJpqRUYz/quwyrsQPd8CbVezgi6n04gWOYl/Ym4W6NJCfoiecYnA53Y2f6H+/wEd/SuhcG4nVab8fe9P8FxhRB/Yl1TrAAl7L0ItVIuYodxKYMOCtVoAPB+SKixRloIu5VuT1F/DgL+DjWlTOI8ozI0hxZ8fIa7CHGpcWDIoMJZYJP6J8A14tBmvOfBBewKPl8Qb8ywYdisAYkwG1M/U+CG5iZfL6jd5ngEcYmQHRL32YSUCIPSfmMPmn/FaKVOzzyGSzPHFfgbMUsAns6w57DkjJB1PwqviJSjD6P8Q89+tGAKOZhbRq4GMSazcflMkHMRHTSoKI9p2MVluJX6umF+JluiJJcS7juJfKXGJWmupNcz03y+x7j0+BNTlmsKV10EUFatqhEdGG71RO7o1if9GdPkzfYlUlJDXa4kJONuU8juQ5xCy26U4jYUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ+eWyjpNtxPmhW/nazVJzPO45MZMh2Z5DYs9Xo8dkNrRdDMt9JZlxP8A6W4YxlKv0WFAAAAAElFTkSuQmCC"/></a>
+        <a href="https://www.instagram.com/migs.jimen/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEvF1T+ozmEUB/DPdUlSN5KUwcLtJv/jjpiMZHCVYjESxSCDlAwGJYrproRBYpJFuotYkKRkUCYWhZL/z9Hze3s8fr/cN73dM73vOec533O+589vyIBlaMDxzRjAchzFZqymM5GfeIYpnMfLmpG2Cg5k5zl90vcVBzFZvqsBNuIhZvUZvHH/hk140ihqgJvY2Ufwt1iDCVzM724k2nZ1AbzGshaANziD51iEMRxH+AdAZP0ov3uFFV0AHzG/AribM/qAxdn2DqtwB59SzxZgSbaF30gbQPD+vQoegUZzsL3Yipic+ynLyxjOE1Q+iz70BqTsQSi/VABncSxlfgkxXaUE54dwG9sLQyQ5u62CUMaolbIft3LGsQ+lPMU6nEx7cqow/MiV/VaVFcTvMJYSc30tUXMPayvb4wS+ASdSwNOVrRe3HtPgt5TgeR8u4HBli809kivcUdg6exA+NUBUtB7zsAdbcqBo8tU0unNbmvw5+/9FUSjaxjRmPZYvKCkl7lTQt7TSv08VL2x0NUVxrHpLUjUuNrRctG1V4ObvC6zsArieguzueDhd9RXEzrRSNI4H/3ns4mDGCLcChHKg57oBLj84ccy6pPzgnEsjHYfuD5mxT+Z0G/pPv4FX8AszSlgZRYBdrAAAAABJRU5ErkJggg=="/></a>
+        <a href="https://www.facebook.com/profile.php?id=100014745818723"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcFJREFUSEu11T+oT2EYwPHPLYUwyCIki0GRjKRkEJIuMYgsFDKIlAzyJxnUFQburTtYlEEU+TORQWajvyXCYjAoinCeen86vZ3znt8P92znff58n+d9/rxDJvgbmmD/ugCTsQXrsBQL8Atv8BT3cRPf2wItAdbjcnJaSvQV9uFBk1Ib4GQV6YkBru8njuBcbtMEOIXjAzivqx7ExfpBDtiI2wXnn3AYj/A26Y2ks/iNTFbhcc9HHTAdLzG7BfADi/E8k9cBIQr5kl7h64Ao1Ggh+mvYXpOvwQqsxfLMbhNuxVkdcAcbCoBjOJPkW3G9oDuOPTngPeYUjA7hQpJHMc8XdGNGluWAr5jynwCfq26amQO+YFoG+NiRVag/xOrMLnzNyAEvsDBT/IC5HTPxDvMynWdYlAOuVm26Y8AMYld9awjgSjUnu3LANkQrtn2DFLmxTSfhNea3EPoF/LmePIP4jw167x8AscpX4knPR9Oyi2V1oAHSTwan80XZBIizsd4k1kBdgLNVwY/mgZUenJ1pWmclozZAbIC9uNt0tV1P5lTsxub0NF5KTvZjuNqaNxAt+VdPZsd89SfuyqA/LwWt33YeVhnsaaE0AAAAAElFTkSuQmCC"/></a>
+    </div>
+    <div class="footernav">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about1">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>    
+
+</div>
+<div class="Footerbottom" id="contact">
+    <p>Copyright &copy;2024; Designed by <span class="Designer">Miguel</p>
+</div>
+</footer>
+    </body>
+</html>
